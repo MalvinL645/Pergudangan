@@ -13,6 +13,7 @@ public class Barang implements CRUD{
     private String namaBarang;
     private int jmlBrg;
     private Kategori ktg;
+    private int hargaBarang;
 
     public Barang(String idBarang, String namaBarang, int jmlBrg, Kategori ktg) {
         this.idBarang = idBarang;
